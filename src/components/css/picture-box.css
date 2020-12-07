@@ -1,0 +1,3 @@
+/* Remember to start all CSS slectors for the PictureBox with `.PictureBox`
+This process of namespacing ensures that stlyes for this component do not
+spill over into subling components. */

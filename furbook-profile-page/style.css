@@ -1,0 +1,45 @@
+body{
+  background-image: linear-gradient(to right top, #c78592, #d2939f, #dda1ac, #e8afb9, #f3bdc7);
+}
+
+.row {
+  margin: 2rem
+}
+
+/* start: picture-box css */
+
+.picture-box{
+  text-align: center;
+  background-color: rgb(248,248,248);
+  padding: 1rem;
+  border-radius: 10px
+}
+
+.pic {
+  width:100%;
+  border-radius: 100%;
+  margin-bottom: 1rem
+}
+
+/* end: picture-box css */
+
+.about-box{
+  background-color: rgb(248,248,248);
+  padding: 1rem;
+  border-radius: 10px
+}
+
+.heading{
+  text-align: center;
+  font-weight:700;
+  font-size:2rem
+}
+
+.list-group-item{
+  font-weight: 700;
+  padding:1rem
+}
+
+input {
+  border-radius: 10px
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Takota's Profile</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- section: navbar for profile-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Furbook</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria- controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Post</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pet</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Find friends..." />
+        <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Sniff</button>
+      </form>
+    </div>
+  </nav>
+  <!-- end section:navbar -->
+
+  <div class="container">
+    <div class="row">
+      <!-- section: profile and name -->
+      <div class="col-4 picture-box">
+        <img src="./images/takota.png" class="pic" />
+        <h3>Takota McConner</h3>
+        <p class="list-group-item">"Laziness is nothing more than the habit of resting before you get tired." -Jules Renard</p>
+      </div>
+      <!-- END section: profile and name -->
+
+      <!-- section: about me -->
+      <div class="col-7 offset-1 about-box">
+        <ul class="list-group">
+          <p class="list-group-item heading">About</p>
+          <p class="list-group-item">Age: 12</p>
+          <p class="list-group-item">Occupation: Pet</p>
+          <p class="list-group-item">Education: Wild Cat Academy</p>
+          <p class="list-group-item">Favorite Bands: Cat Stevens, Def Leopard, Atomic Kitten, Lionel Ritchie</p>
+          <p class="list-group-item">Contact Info: Meow at me at the fence behind Burger King on 242nd and Broadway</p>
+          <p class="list-group-item">Relationship Status: Single</p>
+          <p class="list-group-item">Places Lived: Paris, France and Bronx, New York</p>
+        </ul>
+      </div>
+      <!-- END section: about me -->
+    </div>
+
+    <div class="row">
+      <!-- section: posts -->
+      <div class="col-12">
+        <div class="list-group">
+          <a href="#" class="list-group-item list-group-item-action active">
+            <div>
+              <h5>Recent Posts</h5>
+            </div>
+          </a>
+          <a href="#" class="list-group-item list-group-item-action">
+            <div>
+              <h5>Takota McConner Says:</h5>
+              <small class="text-muted">3 days ago</small>
+            </div>
+            <p>Did nothing today, just layed around and ate food #bestdayever</p>
+            <input placeholder="comment.." />
+          </a>
+          <a href="#" class="list-group-item list-group-item-action">
+            <div>
+              <h5>Takota McConner Says:</h5>
+              <small class="text-muted">4 days ago</small>
+            </div>
+            <p>Didn't do much today, just layed around and ate food #yolo</p>
+            <input placeholder="comment.." />
+          </a>
+          <a href="#" class="list-group-item list-group-item-action">
+            <div>
+              <h5>Takota McConner Says:</h5>
+              <small class="text-muted">7 days ago</small>
+            </div>
+            <p>Nothing accomplished today, just layed around and ate food #livingmybestlife</p>
+            <input placeholder="comment.." />
+          </a>
+          <a href="#" class="list-group-item list-group-item-action">
+            <div>
+              <h5>Takota McConner Says:</h5>
+              <small class="text-muted">8 days ago</small>
+            </div>
+            <p>Slept all day and ate a few meals #killingthegame</p>
+            <input placeholder="comment.." />
+          </a>
+          <a href="#" class="list-group-item list-group-item-action">
+            <div>
+              <h5>Takota McConner Says:</h5>
+              <small class="text-muted">12 days ago</small>
+            </div>
+            <p>Was taken to the vet - considering puking in my owners shoes. Opinions?</p>
+            <input type="text" placeholder=" comment.." />
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- section: posts -->
+  </div>
+</body>
+
+</html>
